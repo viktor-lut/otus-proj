@@ -12,4 +12,4 @@ function twoexp(n) {
     return result;
 }
 
-module.exports = twoexp();
+module.exports = twoexp;
