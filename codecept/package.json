@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "codeceptjs run"
+  },
+  "devDependencies": {
+    "codeceptjs": "^2.6.8",
+    "puppeteer": "^5.2.1"
+  }
+}
