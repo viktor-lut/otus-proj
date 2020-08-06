@@ -1,0 +1,23 @@
+{
+  "name": "otus-proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktor-lut/otus-proj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viktor-lut/otus-proj/issues"
+  },
+  "homepage": "https://github.com/viktor-lut/otus-proj#readme",
+  "devDependencies": {
+    "codeceptjs": "^2.6.8",
+    "puppeteer": "^5.2.1"
+  }
+}
