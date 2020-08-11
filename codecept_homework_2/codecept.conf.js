@@ -1,15 +1,9 @@
-const { setHeadlessWhen } = require('@codeceptjs/configure');
-
-// turn on headless mode when running with HEADLESS=true environment variable
-// export HEADLESS=true && npx codeceptjs run
-setHeadlessWhen(process.env.HEADLESS);
-
 exports.config = {
   tests: './*_test.js',
   output: './output',
   helpers: {
     Puppeteer: {
-      url: 'http://testing-ground.scraping.pro',
+      url: 'http://todomvc.com',
       show: true,
       windowSize: '1200x900'
     }
@@ -19,7 +13,7 @@ exports.config = {
   },
   bootstrap: null,
   mocha: {},
-  name: 'codecept_parametrized',
+  name: 'codecept_homework_2',
   plugins: {
     retryFailedStep: {
       enabled: true

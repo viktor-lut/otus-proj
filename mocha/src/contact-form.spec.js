@@ -23,5 +23,17 @@ describe('ContactForm', () => {
             // assert
             expect(pageObject.emailField).is.empty;
         });
+
+        it('flag isSent should be true', () => {
+            // arrange
+            const pageObject = new ContactForm();
+
+            // act
+            pageObject.typeInEmailField('example@example.com')
+            pageObject.sendForm()
+
+            // assert
+            assert(pageObject.isSent, true);
+        });
     });
 });
